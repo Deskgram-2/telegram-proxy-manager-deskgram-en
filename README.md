@@ -1,5 +1,7 @@
 # Telegram Proxy Manager with Deskgram 2
 
+![Proxy Table](assets/screenshots/proxy__table__en.png)
+
 Proxy Manager is a Deskgram 2 infrastructure section for storing, importing, checking, and assigning proxies used by Telegram accounts. It is useful when you build a stable environment for messaging, invite, parsing, and other automation scenarios.
 
 [Deskgram 2 Hub](https://github.com/Deskgram-2/deskgram-2-telegram-automation-en) | [Website](https://deskgram2.com/) | [Telegram Bot](https://t.me/DG2welcomebot) | [Web Preview](https://deskgram2.com/web-preview)
@@ -29,6 +31,24 @@ Proxy Manager is a Deskgram 2 infrastructure section for storing, importing, che
 2. Run basic checks and remove bad entries.
 3. Bind proxies to the needed accounts.
 4. Reuse the prepared pool in invite, messaging, or parsing workflows.
+
+## Interface highlights
+
+### Shared proxy table
+
+![Proxy Table View](assets/screenshots/proxy__table__en.png)
+
+### Bulk import
+
+![Proxy Bulk Import](assets/screenshots/proxy__bulk-import__en.png)
+
+### Check settings
+
+![Proxy Check Settings](assets/screenshots/proxy__check-settings__en.png)
+
+### Account binding
+
+![Proxy Binding](assets/screenshots/proxy__binding__en.png)
 
 ## When it is especially useful
 
