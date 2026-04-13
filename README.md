@@ -32,6 +32,14 @@ Proxy Manager is a Deskgram 2 infrastructure section for storing, importing, che
 3. Bind proxies to the needed accounts.
 4. Reuse the prepared pool in invite, messaging, or parsing workflows.
 
+## Which execution workflows usually follow this setup
+
+- [Direct Messaging](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-en), when outreach needs a stable account environment;
+- [Invite Tool](https://github.com/Deskgram-2/telegram-invite-tool-deskgram-en), when accounts and audience are already prepared for growth tasks;
+- [Audience Parser](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-en), when proxy-backed data collection comes first;
+- [Join Groups](https://github.com/Deskgram-2/telegram-join-groups-deskgram-en), when community participation depends on healthy infrastructure;
+- [Account Manager](https://github.com/Deskgram-2/telegram-account-manager-deskgram-en), when you want to bind the working pool to a specific account grid.
+
 ## Interface highlights
 
 ### Shared proxy table
@@ -73,6 +81,9 @@ Proxy Manager is a Deskgram 2 infrastructure section for storing, importing, che
 - [Account Manager](https://github.com/Deskgram-2/telegram-account-manager-deskgram-en)
 - [Invite Tool](https://github.com/Deskgram-2/telegram-invite-tool-deskgram-en)
 - [Automation Settings](https://github.com/Deskgram-2/telegram-automation-settings-deskgram-en)
+- [Direct Messaging](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-en)
+- [Audience Parser](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-en)
+- [Join Groups](https://github.com/Deskgram-2/telegram-join-groups-deskgram-en)
 
 ## FAQ
 
