@@ -75,6 +75,22 @@ Proxy Manager is a Deskgram 2 infrastructure section for storing, importing, che
 | It is hard to reuse the same pool | The proxy base stays centralized |
 | Infrastructure is hard to maintain over time | The section supports ongoing cleanup and updates |
 
+## Use cases
+
+- preparing a working pool for [Direct Messaging](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-en), when outreach depends on a stable multi-account setup;
+- building reserve infrastructure before [Invite Tool](https://github.com/Deskgram-2/telegram-invite-tool-deskgram-en) and [Join Groups](https://github.com/Deskgram-2/telegram-join-groups-deskgram-en);
+- supporting [Audience Parser](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-en) when the flow starts with discovery and data collection;
+- rotating and cleaning one shared proxy layer that will be reused across several Deskgram 2 workflows.
+
+## What to choose first: Proxy Manager or Account Manager
+
+| If your goal is | Better starting point |
+|---|---|
+| Organize the account grid itself | [Account Manager](https://github.com/Deskgram-2/telegram-account-manager-deskgram-en) |
+| Check connectivity and remove weak infrastructure points | `Proxy Manager` |
+| Prepare a stable base for large-scale execution | Start with Account Manager, then move into `Proxy Manager` |
+| Standardize the whole workspace before launch | Accounts and proxies first, then [Settings](https://github.com/Deskgram-2/telegram-automation-settings-deskgram-en) |
+
 ## Related repositories
 
 - [Deskgram 2 Hub](https://github.com/Deskgram-2/deskgram-2-telegram-automation-en)
