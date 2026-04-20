@@ -1,15 +1,15 @@
-# Telegram Proxy Manager with Deskgram 2
+﻿# Telegram Proxy Manager with Deskgram 2
 
 ![Proxy Table](assets/screenshots/proxy__table__en.png)
 
 Proxy Manager is a Deskgram 2 infrastructure section for storing, importing, checking, and assigning proxies used by Telegram accounts. It is useful when you build a stable environment for messaging, invite, parsing, and other automation scenarios.
 
-[Deskgram 2 Hub](https://github.com/Deskgram-2/deskgram-2-telegram-automation-en) | [Website](https://deskgram2.com/) | [Telegram Bot](https://t.me/DG2welcomebot) | [Web Preview](https://deskgram2.com/web-preview)
+[Deskgram 2 Hub](https://github.com/Deskgram-2/deskgram-2-telegram-automation-en) | [Website](https://deskgram2.com/) | [Telegram Bot](https://t.me/DG2welcomebot) | [Web Preview](https://deskgram2.com/web-preview?path=%2Fapp-demo%2F&lang=en)
 ## Interactive Web Preview
 
-[![Interactive Demo](https://img.shields.io/badge/DEMO-Try_in_Browser-brightgreen?style=for-the-badge&logo=google-chrome)](https://deskgram2.com/web-preview?path=%2Fapp-demo%2Ffunctions%2Fproxy)
+[![Interactive Demo](https://img.shields.io/badge/DEMO-Try_in_Browser-brightgreen?style=for-the-badge&logo=google-chrome)](https://deskgram2.com/web-preview?path=%2Fapp-demo%2Ffunctions%2Fproxy&lang=en)
 
-Try the module interface in the browser: [Open web preview](https://deskgram2.com/web-preview?path=%2Fapp-demo%2Ffunctions%2Fproxy)
+Try the module interface in the browser: [Open web preview](https://deskgram2.com/web-preview?path=%2Fapp-demo%2Ffunctions%2Fproxy&lang=en)
 
 
 
@@ -121,3 +121,4 @@ Because infrastructure becomes easier to manage when it is not mixed into every 
 ### Which modules benefit from it most?
 
 Invite, parsing, messaging, and any workflow that depends on large account grids.
+
